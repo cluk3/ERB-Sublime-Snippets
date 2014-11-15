@@ -2,7 +2,7 @@
   <content><![CDATA[<%= image_tag "${1:image.jpg}", alt: "$2",
                           size: "${3:HeightxWidth}",
                           class: "$0" %>]]></content>
-  <tabTrigger>img</tabTrigger>
+  <tabTrigger>image</tabTrigger>
   <scope>text.html.ruby</scope>
   <description>insert a rails view image_tag helper</description>
 </snippet>
